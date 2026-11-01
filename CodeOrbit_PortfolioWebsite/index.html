@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundaram Rathore | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Portfolio.</div>
+        <ul id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Hi, I'm <span>Sundaram Rathore</span></h1>
+            <p>Aspiring Full Stack Developer Intern @ CodeOrbit Tech</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Computer Science student learning Full Stack Development. I love building responsive and user-friendly websites using HTML, CSS, JavaScript and Node.js. Currently pursuing internship at CodeOrbit Tech.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">Express</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>Simple to-do app with localStorage to add, edit, delete tasks.</p>
+            </div>
+            <div class="project-card">
+                <h3>Simple REST API</h3>
+                <p>Built a CRUD API using Node.js & Express with JSON file storage.</p>
+            </div>
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>This responsive portfolio website itself.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: rathoresundaram32@gmail.com | Location: Dehradun Uttarakhand, India</p>
+        <form onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>© 2026 CodeOrbit Tech Internship | Built by Your Name</footer>
+    <script src="script.js"></script>
+</body>
+</html>

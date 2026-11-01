@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { line-height: 1.6; color: #222; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 15px 8%; background: #0f2c3e; color: white; position: sticky; top: 0; }
+nav ul { display: flex; list-style: none; gap: 20px; }
+nav a { color: white; text-decoration: none; }
+.logo { font-weight: bold; font-size: 22px; }
+.hero { height: 80vh; background: #f0f8ff; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; }
+.hero span { color: #0f766e; }
+.btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #0f2c3e; color: white; text-decoration: none; border-radius: 5px; }
+section { padding: 60px 8%; }
+h2 { text-align: center; margin-bottom: 30px; color: #0f2c3e; }
+.skills-container, .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+.skill-card, .project-card { background: white; border: 1px solid #ddd; padding: 20px; text-align: center; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+#contact form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+input, textarea, button { padding: 12px; border: 1px solid #ccc; border-radius: 5px; }
+#contact button { background: #0f2c3e; color: white; cursor: pointer; border: none; }
+footer { text-align: center; padding: 20px; background: #0f2c3e; color: white; }
+/* Responsive */
+@media(max-width: 600px) {
+    nav ul { gap: 10px; font-size: 14px; }
+    .hero h1 { font-size: 24px; }
+}
